@@ -1,4 +1,5 @@
-module dut(input wire a,
+module xor_gate(
+	input wire a,
 	input wire b,
 	output wire y
 );
