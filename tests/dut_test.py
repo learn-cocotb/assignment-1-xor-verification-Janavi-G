@@ -8,7 +8,7 @@ async def dut_test(dut):
     b=(0,1,0,1)
     y=(0,1,1,0)
 
-    for in range(4):
+    for i in range(4):
     dut.a.value=a[i]
     dut.a.value=b[i]
 await Timer(1,'ns')
