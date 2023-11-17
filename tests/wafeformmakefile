@@ -5,4 +5,3 @@ VERILOG_SOURCES += $(PWD)/wrappers/xor_wave
 TOPLEVEL = xor_wave
 MODULE = xor_wave
 include $(shell cocotb-config --makefiles)/Makefile.sim
-
