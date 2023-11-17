@@ -1,9 +1,9 @@
-module dut_test(
+module xor_gate(
       input wire a
       input wire b
       input wire y
 );
-  dut_test xor_gate(
+  xor_gate xor_gate(
     ,a(a),
     ,b(b),
     ,y(y)
