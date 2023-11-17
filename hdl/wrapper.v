@@ -1,9 +1,9 @@
-module xoor_gate(
+module xor_gate(
       input wire a
       input wire b
       input wire y
 );
-  xoor_gate xor_gate(
+  xor_gate xor_gate(
     ,a(a),
     ,b(b),
     ,y(y)
