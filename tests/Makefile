@@ -1,7 +1,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 VERILOG_SOURCES += $(PWD)/../hdl/dut.v
-VERILOG_SOURCES += $(PWD)/../wrapper.v/xor_gate
+VERILOG_SOURCES += $(PWD)/../
 TOPLEVEL = xor_gate
 MODULE = xor_gate
 include $(shell cocotb-config --makefiles)/Makefile.sim
