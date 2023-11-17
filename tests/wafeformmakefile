@@ -1,7 +1,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 VERILOG_SOURCES += $(PWD)/../hdl/XORwaveform.v
-VERILOG_SOURCES += $(PWD)/wrappers/xor_wave
+VERILOG_SOURCES += $(PWD)/wrapperclass/xor_wave
 TOPLEVEL = xor_wave
 MODULE = xor_wave
 include $(shell cocotb-config --makefiles)/Makefile.sim
